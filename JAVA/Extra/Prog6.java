@@ -1,4 +1,4 @@
-package Extra;
+
 class Student {
     String name;
     int age;
