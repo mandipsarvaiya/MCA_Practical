@@ -1,0 +1,51 @@
+open file 
+
+-> use open() function to open a file 
+-> function accept filename and mode in which file should be open
+-> Syntax - file handler = open("filename", "open_mode", "buffering)
+-> f.open("d://renil//first.txt", "w)
+
+file opening modes :-
+
+w - 
+r - 
+a -
+w+ -
+r+ -
+a+ -
+x -
+
+
+Demo :-
+
+f = open("d://renil//first.txt", "w)
+f.which("hello good morning)
+f.close()
+
+f = open("d://renil//first.txt", "r)
+s=f.read()
+print("with variable -",s)
+print("direct", f.read())
+f.close()
+
+f = open("d://renil//first.txt", "r)
+s=f.read()
+print(f.tell())
+f.seek(0,0)
+print(f.tell())
+s=f.read()
+print("with varible - ",s)
+f.close()
+
+
+
+
+-- Is file exist or not
+os.path.isfile(file_name) gives true is file exist otherwise false
+
+os.rename()
+os.remove()
+os.mkdir()
+os.listdir()
+fName.endswith()
+fName.startswith()

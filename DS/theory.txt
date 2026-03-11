@@ -1,0 +1,47 @@
+profit and postfix
+
+formula - Address of a[i][j] = b + w * ((i - lr) * n + (j - lc))
+formula - Address of a[i][j] = b + w * ((j - lc) * m + (i - lr))
+
+-----------
+
+base Address b = 100
+storage size of one element store in any array w =1 bytes
+row subset of an element whose Address is be found i = 8
+column subset of an element whose Address to be found j = 6
+lower limit of row and column index of matrix = 1
+number of column given in the matrix n = upper bound - lower bound + 1
+                                       = 15 - 1 + 1
+                                       = 15
+
+
+Address of a[8][6] = 100 + 1 * (8-)
+
+
+----------
+
+base Address b = 100
+storage size of one element store in any array w =1 bytes
+row subset of an element whose Address is be found i = 8
+column subset of an element whose Address to be found j = 6
+lower limit of row and column index of matrix = 1
+lower limit of column/start column index of matrix = 1
+number of column given in the matrix n = upper bound - lower bound + 1
+                                       = 10 - 1 + 1
+                                       = 10
+
+Address of a[8][6] = 100+1 * ((6-1)* 10 + (8 - 1))
+                   = 100 + 1*((5) * 10 + (7))
+                   = 100 + 1*(57)
+                   = 157
+
+
+------------
+type of recursion
+
+direct recursion
+indirect recursion
+tail recursion
+non tail recursion
+linear recursion
+multiple recursion

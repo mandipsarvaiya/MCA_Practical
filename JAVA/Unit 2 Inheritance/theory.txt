@@ -1,0 +1,5 @@
+type of inheritance 
+
+1) single level inheritance
+2) multilevel inheritance
+3) hierachecal inheritance
