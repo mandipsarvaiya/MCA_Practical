@@ -7,8 +7,6 @@ public class AreaCalculate {
         v1.display();
     }    
 }
-
-
 class Area{
     protected int length;
     protected int width;
@@ -21,7 +19,6 @@ class Area{
         width = sc.nextInt();
     }
 }
-
 class Volume extends Area{
     private int height;
 
