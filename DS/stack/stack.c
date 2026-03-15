@@ -1,7 +1,4 @@
-// stack - push, pop, peek, count, display opration
-
 #include<stdio.h>
-#include<stdlib.h>
 
 int main(){
     int lenght,ch,num, top = -1, count =0;
